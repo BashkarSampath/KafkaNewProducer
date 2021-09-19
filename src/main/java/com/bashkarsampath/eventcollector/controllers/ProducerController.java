@@ -1,4 +1,4 @@
-package demo.controller;
+package com.bashkarsampath.eventcollector.controllers;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.bashkarsampath.eventcollector.avro.EventCollector;
+import com.bashkarsampath.eventcollector.configurations.SwaggerDocumentation;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import demo.configuration.SwaggerDocumentation;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

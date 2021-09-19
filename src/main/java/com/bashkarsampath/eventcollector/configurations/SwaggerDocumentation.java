@@ -1,4 +1,4 @@
-package demo.configuration;
+package com.bashkarsampath.eventcollector.configurations;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

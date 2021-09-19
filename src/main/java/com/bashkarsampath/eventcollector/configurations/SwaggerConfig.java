@@ -1,4 +1,4 @@
-package demo.configuration;
+package com.bashkarsampath.eventcollector.configurations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

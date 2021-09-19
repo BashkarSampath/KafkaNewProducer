@@ -1,4 +1,4 @@
-package demo.serde;
+package com.bashkarsampath.eventcollector.avro.serde;
 
 import org.apache.kafka.common.serialization.Serializer;
 

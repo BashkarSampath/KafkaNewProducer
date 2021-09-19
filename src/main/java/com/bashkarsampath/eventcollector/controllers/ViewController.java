@@ -1,4 +1,4 @@
-package demo.controller;
+package com.bashkarsampath.eventcollector.controllers;
 
 import java.io.IOException;
 
