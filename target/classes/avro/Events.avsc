@@ -1,0 +1,48 @@
+{
+  "fields": [
+    {
+      "name": "eventHeader",
+      "type": {
+        "fields": [
+          {
+            "name": "source_event_id",
+            "type": "string"
+          },
+          {
+            "name": "source_application_code",
+            "type": "string"
+          },
+          {
+            "name": "source_system_name",
+            "type": "string"
+          },
+          {
+            "name": "event_timestamp",
+            "type": "string"
+          },
+          {
+            "name": "event_channel_type",
+            "type": "string"
+          },
+          {
+            "name": "event_activity_type",
+            "type": "string"
+          }
+        ],
+        "name": "eventHeader",
+        "type": "record"
+      }
+    },
+    {
+      "name": "eventAttributes",
+      "type": {
+        "fields": [],
+        "name": "eventAttributes",
+        "type": "record"
+      }
+    }
+  ],
+  "name": "EventCollector",
+  "namespace": "com.bashkarsampath.eventcollector.avro",
+  "type": "record"
+}
